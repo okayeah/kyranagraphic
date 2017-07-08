@@ -43,4 +43,8 @@ $(document).ready(function(){
 
 	/*End Slider*/
 
+	/* PrettyPhoto */
+	$("a[rel=pp]").prettyPhoto({social_tools: ''});
+	/* End PrettyPhoto */
+
 });
