@@ -236,3 +236,10 @@ a[class^=button]{
 	-webkit-background-size: contain;
 	background-size: contain;
 }
+
+/* RESPONSIVE */
+@media (max-width: 425px) {
+	#container, #header, #body, #footer, #slide1, #slide2, #menu1, #menu2, #menu3, #header, #menu4 {
+		width: 100%;
+	}
+}
