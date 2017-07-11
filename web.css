@@ -31,13 +31,21 @@
 }
 #footer{
 	height: 29px;
-	background:grey;
-	text-align: center;
-	line-height: 13px;
-	font-family: 'Bellerose';
+	background: grey;
+	text-align: left;
+	line-height: 29px;
+	font-family: 'roboto-light';
 	font-weight: bold;
 	color: white;
-	font-size: 85%;
+	font-size: 84%;
+	padding: 0 20px 0 30px;
+}
+#footer a {
+	float: right;
+	text-decoration: none;
+}
+#footer .grey {
+	color: #464646;
 }
 #slide1{
 	height: 440px;
